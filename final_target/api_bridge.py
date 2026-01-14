@@ -57,5 +57,11 @@ async def run_logic(
 
 if __name__ == "__main__":
     import uvicorn
+    import os
 
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    # 关键修改：云平台（Zeabur, Railway等）会通过环境变量 PORT 分配端口
+    # 如果拿不到 PORT，则默认使用 8080 (Zeabur 默认检测端口)
+    port = int(os.environ.get("PORT", 8080))
+    
+    # host 必须是 0.0.0.0 才能让外部访问
+    uvicorn.run(app, host="0.0.0.0", port=port)
