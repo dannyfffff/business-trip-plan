@@ -6,15 +6,15 @@ python-dotenv>=1.0.0
 # ===============================
 # Streamlit UI
 # ===============================
-streamlit>=1.32.0
+streamlit>=1.28
 
 # ===============================
 # LangChain / LangGraph
 # ===============================
-langchain>=0.2.14
-langchain-core>=0.2.14
-langgraph==0.6.5
-langgraph-api==0.6.5
+langgraph>=0.9.0
+langgraph-api>=0.9.0
+langchain-core>=0.1.52
+langchain>=0.1.20
 
 # ===============================
 # LLM / Model Clients
@@ -24,7 +24,7 @@ openai>=1.12.0
 # ===============================
 # Data & Utilities
 # ===============================
-pydantic>=2.6.0
+pydantic>=2.0
 typing-extensions>=4.9.0
 requests>=2.31.0
 
