@@ -37,3 +37,5 @@ python-dateutil>=2.9.0
 # Optional (logging / dev)
 # ===============================
 rich>=13.7.0
+
+fastapi
