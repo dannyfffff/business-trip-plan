@@ -11,7 +11,7 @@ streamlit>=1.30
 # ===============================
 # LangChain / LangGraph
 # ===============================
-langgraph==0.10.1
+langgraph>=0.4.0
 langgraph-api>=0.9.0
 langchain-core>=0.2.0
 langchain>=0.2.0
