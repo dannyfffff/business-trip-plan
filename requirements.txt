@@ -32,5 +32,5 @@ requests>=2.31.0
 # Date & Time
 # ===============================
 python-dateutil>=2.9.0
-
+langchain-deepseek
 fastapi
