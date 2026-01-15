@@ -437,6 +437,8 @@ def query_train_api(origin: str, destination: str, date: str, filter: str = "G")
 
                 "departure_hub": item["departure_station"],
                 "arrival_hub": item["arrival_station"],
+                "departure_hub_name": item["departure_station"],
+                "arrival_hub_name": item["arrival_station"],
                 "duration": item["duration"],
                 "price": price_item["price"],
             })
